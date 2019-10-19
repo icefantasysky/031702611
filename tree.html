@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>家族树</title>
+    <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      html,
+      body {
+        overflow: scroll;
+        margin: 0;
+      }
+      #input{
+          width: 400px;
+          min-height: 100px;
+      }
+    </style>
+  </head>
+  <body background="back.jpg">
+      <textarea id="input" placeholder=
+          “请输入家族树信息”
+          rows="20" cols="35">
+      </textarea>
+      <button id="generate">创建家族树</button>
+    <div id="nodes"></div>
+    <script>
+     document.body.clientHeight;
+    </script>
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.1.1/build/g6.js"></script>
+    <script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.hierarchy-0.5.0/build/hierarchy.js"></script>
+    <script type="" src="tree.js"></script>
+  </body>
+</html>
